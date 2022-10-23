@@ -1,0 +1,19 @@
+<div class="row">
+  <div class="sidebar col-4">
+    <h1>Welcome</h1>
+    <ul class="list-group">
+      <li class="list-group-item" [routerLink]="'/home'">Home Page</li>
+      <li class="list-group-item" [routerLink]="'posts'">Posts</li>
+    </ul>
+  </div>
+
+  <div class="rightSide col">
+    <app-navBar></app-navBar>
+    <div class="content">
+      <router-outlet></router-outlet>
+    </div>
+    <div class="footer">
+      <app-Footer></app-Footer>
+    </div>
+  </div>
+</div>

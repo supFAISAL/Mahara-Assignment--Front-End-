@@ -1,0 +1,35 @@
+.row {
+  min-height: 100%;
+  height: fit-content;
+  width: 100%;
+  margin-left: 0;
+}
+
+.col-4 {
+  width: 15% !important;
+}
+
+.col {
+	padding: 0;
+}
+.sidebar {
+  background-color: #f1f1f1;
+
+}
+
+.rightSide {
+  background-color: #212529;
+  width: 100%;
+}
+
+.content {
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  background-color: white;
+  min-height: 80%;
+}
+.list-group {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  cursor: pointer;
+}
